@@ -9,68 +9,94 @@ import utilidades.XML;
 public class Principal {
 
 	public static void main(String[] args) {
+		
+		
 		try {
 			Document curriculo = XML.lerXml("curriculo.xml");
 			System.out.println(XML.pegarElementoDoCurriculo(curriculo, "NOME-COMPLETO", "DADOS-GERAIS"));
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	public Principal() {
-		
+
 		while(true) {
-			
+
 			String resposta = lerReposta();
-			
+
 			decifrarResposta(resposta);
-			
-			
+
+
 		}
 
 	}
 	
-	
-	
 	private void decifrarResposta(String resposta) {
-		
 		String[] valores = resposta.split(" ");
-		
+
 		String opcao = valores[0];
-		
+
 		String argumento = valores[1];
 		
+		decifrarResposta(opcao, argumento);
+	}
+
+
+	private void decifrarResposta(String opcao, String argumento) {
+
+
 		switch (opcao) {
 		case "-o":
+			
+			
 			break;//TODO chamar controller
-	case "-l":    
+			
+		case "-l":
+			
 			break;//TODO chamar controller
-	case "-a":    
+			
+		case "-a":
 			break;//TODO chamar controller
-	case "-c":    
+			
+		case "-c":
+			
 			break;//TODO chamar controller
-	case "-v":    
+			
+		case "-v":
+			
 			break;//TODO chamar controller
-	case "-pr":   
+			
+		case "-pr":
+			
 			break;//TODO chamar controller
-	case "-ar":   
+			
+		case "-ar":  
+			
 			break;//TODO chamar controller
-	case "-anr":  
+			
+		case "-anr":  
+			
 			break;//TODO chamar controller
-	case "-pe":   
+			
+		case "-pe":   
+			
 			break;//TODO chamar controller
-	case "-vi":
-		break;
+			
+		case "-vi":
+			
+			break;//TODO chamar controller
+			
 
 		default:
 			System.out.println("Opção não encontrada.");
 		}
-		
+
 	}
 
 
@@ -78,13 +104,15 @@ public class Principal {
 
 
 	private String lerReposta() {
-		
+
 		Scanner scanner = new Scanner(System.in);
-		
+
 		String resposta = scanner.nextLine();
 		
+		decifrarResposta(resposta);
+
 		scanner.close();
-		
+
 		return resposta;
 	}
 
