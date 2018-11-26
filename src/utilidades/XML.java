@@ -1,6 +1,8 @@
 package utilidades;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -8,6 +10,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import modelos.Premio;
+
+import modelos.Premio;
 
 
 
@@ -16,6 +21,29 @@ import org.xml.sax.SAXException;
  *
  */
 public class XML {
+	
+	/**
+	 * Instancia os premios do curriculo
+	 * @param curriculo
+	 * @return
+	 */
+	
+	public ArrayList<Premio> instanciarPremios(Document curriculo){
+		ArrayList<Premio> premios = new ArrayList<Premio>();
+		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "NOME-DO-PREMIO-OU-TITULO", "PREMIOS-TITULOS");
+		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO-DA-PREMIACAO", "PREMIOS-TITULOS");
+		NodeList entidades = XML.pegarElementosDoCurriculo(curriculo, "NOME-DA-ENTIDADE-PROMOTORA", "PREMIOS-TITULOS");
+		for (int i = 0; i < nomes.getLength(); i++) {
+			Premio premio = new Premio();
+			premio.setNome(nomes.item(i).getAttributes().getNamedItem("NOME-DO-PREMIO-OU-TITULO").getNodeValue());
+			premio.setAno(anos.item(i).getAttributes().getNamedItem("ANO-DA-PREMIACAO").getNodeValue());
+			premio.setNome(entidades.item(i).getAttributes().getNamedItem("NOME-DA-ENTIDADE-PROMOTORA").getNodeValue());
+			premios.add(premio);
+		}
+		
+		return premios;
+		
+	}
 	
 	/**
 	 * Faz a Leitura do documento XML fornecido.
@@ -40,6 +68,15 @@ public class XML {
 		return documento;
 		
 	}
+	
+	public static NodeList pegarElementosDoCurriculo(Document documento, String elementoDoCurriculo, String tag) {
+		NodeList listaDeElementos = documento.getElementsByTagName(tag);
+		if (listaDeElementos.getLength() > 0) {
+			return listaDeElementos;
+		} else {
+			return null;
+		}
+	}
 
 
 	public static String pegarElementoDoCurriculo(Document documento, String elementoDoCurriculo, String tag) {
@@ -62,6 +99,10 @@ public class XML {
 	public static int pegarQunatidadeDeNos(Document documento, String tag) {
 		return documento.getElementsByTagName(tag).getLength();
 	}
+	
+	
+	
+	
 }
 
 //NodeList listaDePremios = doc.getElementsByTagName("PREMIO-TITULO");
