@@ -130,7 +130,7 @@ public class XML {
 		}
 	}
 
-	public static String pegarElementoDoCurriculoo(Node no, String elementoDoCurriculo) {
+	public static String pegarElementoDoCurriculo(Node no, String elementoDoCurriculo) {
 		return no.getAttributes().getNamedItem(elementoDoCurriculo).getNodeValue();
 	}
 

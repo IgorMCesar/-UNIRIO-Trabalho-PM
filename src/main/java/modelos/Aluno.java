@@ -31,36 +31,37 @@ public class Aluno implements Comparable<Aluno> {
 	}
 
 	@Override
-	public int compareTo(Aluno o) {
-		if (o.getPontuacao() < this.getPontuacao()) {
+	
+	public int compareTo(Aluno aluno) {
+		if (aluno.getPontuacao() < this.getPontuacao()) {
 			return 1;
-		} else if (o.getPontuacao() > this.getPontuacao()) {
+		} else if (aluno.getPontuacao() > this.getPontuacao()) {
 			return -1;
 		} else {
 			//CRITERIOS DE DESEMPATE
 			
 			//semestres cursados
-			if(o.getCurriculo().getSemestresCursados() < this.getCurriculo().getSemestresCursados()) {
+			if(aluno.getCurriculo().getSemestresCursados() < this.getCurriculo().getSemestresCursados()) {
 				return 1;
-			} else if(o.getCurriculo().getSemestresCursados() > this.getCurriculo().getSemestresCursados()) {
+			} else if(aluno.getCurriculo().getSemestresCursados() > this.getCurriculo().getSemestresCursados()) {
 				return -1;
 			} 
 			//artigos publicados
-			else if(o.getCurriculo().getArtigos().size() < this.getCurriculo().getArtigos().size()) {
+			else if(aluno.getCurriculo().getArtigos().size() < this.getCurriculo().getArtigos().size()) {
 				return 1;
-			} else if(o.getCurriculo().getArtigos().size() > this.getCurriculo().getArtigos().size()) {
+			} else if(aluno.getCurriculo().getArtigos().size() > this.getCurriculo().getArtigos().size()) {
 				return -1;
 			} 
 			//premiacoes
-			else if(o.getCurriculo().getPremios().size() < this.getCurriculo().getPremios().size()) {
+			else if(aluno.getCurriculo().getPremiosMenoresDezAnos().size() < this.getCurriculo().getPremiosMenoresDezAnos().size()) {
 				return 1;
-			} else if(o.getCurriculo().getPremios().size() > this.getCurriculo().getPremios().size()) {
+			} else if(aluno.getCurriculo().getPremiosMenoresDezAnos().size() > this.getCurriculo().getPremiosMenoresDezAnos().size()) {
 				return -1;
 			} 
 			//participacao em eventos
-			else if (o.getCurriculo().getEventos().size() < this.getCurriculo().getEventos().size()) {
+			else if (aluno.getCurriculo().getEventos().size() < this.getCurriculo().getEventos().size()) {
 				return 1;
-			} else if (o.getCurriculo().getEventos().size() > this.getCurriculo().getEventos().size()) {
+			} else if (aluno.getCurriculo().getEventos().size() > this.getCurriculo().getEventos().size()) {
 				return -1;
 			} else {
 				return 0;
