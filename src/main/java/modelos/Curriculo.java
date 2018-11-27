@@ -19,6 +19,7 @@ public class Curriculo {
 
 	public int calcularNota() {
 		int nota = 0;
+		//Calculo da pontuação por premios, verificando se está dentro da validade de 10 anos
 		for (int i = 0; i < premios.size(); i++) {
 			int ano = Integer.parseInt(premios.get(i).getAno());
 			if (ano >= 2008) {
@@ -26,6 +27,7 @@ public class Curriculo {
 			}
 		}
 		List<List<String>> dados = csv.lerCSV("conferencia");
+		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();
 			for (int k = 0; k < dados.size(); k++) {
@@ -33,11 +35,20 @@ public class Curriculo {
 					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
 							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
 							|| dados.get(k).get(2) == "B5") {
-						nota++;
+							notaEventos++;
 					}
 				}
 			}
 		}
+		//Como a pontuação de evento está limitada a 5 pontos, verifica se a pontuação excedeu o limite
+		if(notaEventos <= 5) {
+			nota += notaEventos;
+		}
+		//Caso exceda se soma 5 a nota total
+		else {
+			nota += 5;
+		}
+		
 
 		List<List<String>> dados2 = csv.lerCSV("periodicos");
 		for (int j = 0; j < artigos.size(); j++) {
