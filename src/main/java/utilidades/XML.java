@@ -10,6 +10,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import modelos.Artigo;
+import modelos.Evento;
 import modelos.Premio;
 
 import modelos.Premio;
@@ -17,7 +20,7 @@ import modelos.Premio;
 
 
 /**
- * Classe com o propósito de ler e escrever em arquivos xml.
+ * Classe com o propï¿½sito de ler e escrever em arquivos xml.
  *
  */
 public class XML {
@@ -25,7 +28,7 @@ public class XML {
 	/**
 	 * Instancia os premios do curriculo
 	 * @param curriculo
-	 * @return
+	 * @return ArrayList com premios do xml
 	 */
 	
 	public ArrayList<Premio> instanciarPremios(Document curriculo){
@@ -44,6 +47,45 @@ public class XML {
 		return premios;
 		
 	}
+	/**
+	 * Instancia os eventos do curriculo
+	 * @param curriculo
+	 * @return ArrayList com eventos do xml
+	 */
+	public ArrayList<Evento> instanciarEventos(Document curriculo){
+		ArrayList<Evento> eventos = new ArrayList<Evento>();
+		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "NOME-DO-EVENTO", "PARTICIPACAO-EM-EVENTOS-CONGRESSOS");
+		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO", "PARTICIPACAO-EM-EVENTOS-CONGRESSOS");
+		for (int i = 0; i < nomes.getLength(); i++) {
+			Evento evento = new Evento();
+			evento.setNome(nomes.item(i).getAttributes().getNamedItem("NOME-DO-EVENTO").getNodeValue());
+			evento.setAno(anos.item(i).getAttributes().getNamedItem("ANO").getNodeValue());
+			eventos.add(evento);
+		}
+		
+		return eventos;
+		
+	} 
+	
+	/**
+	 * Instancia os artigos do curriculo
+	 * @param curriculo
+	 * @return ArrayList com artigos do xml
+	 */
+	public ArrayList<Artigo> instanciarArtigos(Document curriculo){
+		ArrayList<Artigo> artigos = new ArrayList<Artigo>();
+		NodeList titulos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-ARTIGO", "ARTIGOS-PUBLICADOS");
+		NodeList periodicos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-PERIODICO-OU-REVISTA", "ARTIGOS-PUBLICADOS");
+		for (int i = 0; i < titulos.getLength(); i++) {
+			Artigo artigo = new Artigo();
+			artigo.setTitulo(titulos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
+			artigo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
+			artigos.add(artigo);
+		}
+		
+		return artigos;
+		
+	} 
 	
 	/**
 	 * Faz a Leitura do documento XML fornecido.
