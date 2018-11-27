@@ -4,18 +4,8 @@ public class Artigo {
 	
 	private String titulo;
 	private String periodico;
-	private String ano;
 	private int valorPontuacao;
 	
-	
-	public String getAno() {
-		return ano;
-	}
-
-	public void setAno(String ano) {
-		this.ano = ano;
-	}
-
 	public String getTitulo() {
 		return titulo;
 	}

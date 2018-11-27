@@ -76,12 +76,10 @@ public class XML {
 		ArrayList<Artigo> artigos = new ArrayList<Artigo>();
 		NodeList titulos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-ARTIGO", "ARTIGOS-PUBLICADOS");
 		NodeList periodicos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-PERIODICO-OU-REVISTA", "ARTIGOS-PUBLICADOS");
-		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO-DO-ARTIGO", "ARTIGOS-PUBLICADOS");
 		for (int i = 0; i < titulos.getLength(); i++) {
 			Artigo artigo = new Artigo();
 			artigo.setTitulo(titulos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
 			artigo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
-			artigo.setAno(anos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
 			artigos.add(artigo);
 		}
 		
