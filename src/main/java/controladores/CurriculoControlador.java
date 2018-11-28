@@ -8,12 +8,14 @@ import utilidades.XML;
 public class CurriculoControlador {
 	XML xml = new XML();
 
+	
 	/**
-	 * @author Lucas Lopes
-	 * @param
-	 * @return
+	 * @param caminho String com o caminho do xml fornecido
+	 * @param numeroRemestresSemReprovacao Integer com o numero de semestres sem reprovacao na pos graduacao
+	 * @return Curriculo do aluno
+	 * @throws Exception
 	 */
-	public Curriculo instanciarCurriculo(String caminho, Integer numeroRemestresSemReprovacao) throws Exception{
+	public Curriculo instanciarCurriculo(String caminho, Integer numeroSemestresSemReprovacao) throws Exception{
 		
 		Document documento = XML.lerXml(caminho);
 		
@@ -23,7 +25,7 @@ public class CurriculoControlador {
 		curriculo.setPremios(xml.instanciarPremios(documento));
 		//TODO instanciar semestres cursados
 		
-		curriculo.setNumeroSemestresSemReprovacao(numeroRemestresSemReprovacao);
+		curriculo.setNumeroSemestresSemReprovacao(numeroSemestresSemReprovacao);
 		
 	return curriculo;
 		
