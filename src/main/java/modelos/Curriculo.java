@@ -6,7 +6,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import utilidades.CSV;
-
+/**
+ * Classe responsável por armazenar os dados do XML e calcular a nota do para a disputa da bolsa.
+ * @author Lucas
+ *
+ */
 public class Curriculo {
 
 	private int semestresCursados;
@@ -21,6 +25,11 @@ public class Curriculo {
 	public static final int PONTUACAO_EVENTO = 1;
 	public static final int PONTUACAO_MAXIMA_EVENTO = 5;
 	
+	
+	/**
+	 * Função que calcula a pontuação do curriculo se baseando nos critérios estabelecidos
+	 * @return retorna a pontuação total do curriculo
+	 */
 	public int calcularNota() {
 		
 		//Calculo da pontuação por premios, verificando se está dentro da validade de 10 anos
@@ -31,18 +40,22 @@ public class Curriculo {
 		return notaPremio + notaEvento + notaArtigo;
 	}
 	
-	public int calcularNotaArtigo() {
+	
+	/**
+	 * Função que calcula a pontuação total por meio dos artigos e qualifica se o artigo vale 3 ou 1 ponto
+	 * @return retorna a soma da pontuação
+	 */
+	private int calcularNotaArtigo() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/periodicos.csv");
+		List<List<String>> dados = CSV.lerCSV("periodicos");
 		for (int j = 0; j < artigos.size(); j++) {
 			String periodico = artigos.get(j).getPeriodico();
-			System.out.println(artigos.get(j).getAno());
-			System.out.println(periodico);
 			int ano = Integer.parseInt(artigos.get(j).getAno());
 			if (ano >= 2008) {
-				for (int i = 0; i < dados.size(); i++) {				
-					if (periodico.equalsIgnoreCase(dados.get(i).get(1))) {
-						if (dados.get(i).get(2).equalsIgnoreCase("A1") || dados.get(i).get(2).equalsIgnoreCase("A2") || dados.get(i).get(2).equalsIgnoreCase("B1")) {
+				for (int i = 0; i < dados.size(); i++) {
+					
+					if (periodico.equals(dados.get(i).get(1))) {
+						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
 							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
 							nota += PONTUACAO_ARTIGOS_1_PONTOS;
@@ -53,7 +66,10 @@ public class Curriculo {
 		}
 		return nota;
 	}
-
+	/**
+	 * Função que calcula a pontuação total dos prêmios do curriculo
+	 * @return retorna a soma da pontuação
+	 */
 	public int calcularNotaPremio() {
 		int nota = 0;
 		for (int i = 0; i < premios.size(); i++) {
@@ -66,18 +82,21 @@ public class Curriculo {
 		return nota;
 	}
 	
-	
-	public int calcularNotaEvento() {
+	/**
+	 * Função que calcula a pontuação total por meio dos eventos estando limitado a retornar no máximo 5 pontos
+	 * @return retorna a soma da pontuação
+	 */
+	private int calcularNotaEvento() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/conferencia.csv");
+		List<List<String>> dados = CSV.lerCSV("conferencia");
 		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();
 			for (int k = 0; k < dados.size(); k++) {
 				if (nome.equals(dados.get(k).get(1))) {
-					if (dados.get(k).get(3).equalsIgnoreCase("A1") || dados.get(k).get(3).equalsIgnoreCase("A2") || dados.get(k).get(3).equalsIgnoreCase("B1")
-							|| dados.get(k).get(3).equalsIgnoreCase("B2") || dados.get(k).get(3).equalsIgnoreCase("B3") || dados.get(k).get(3).equalsIgnoreCase("B4")
-							|| dados.get(k).get(3).equalsIgnoreCase("B5")) {
+					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
+							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
+							|| dados.get(k).get(2) == "B5") {
 							notaEventos += PONTUACAO_EVENTO;
 					}
 				}
