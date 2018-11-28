@@ -152,23 +152,26 @@ public class XML {
 		ArrayList<Vinculo> vinculos = new ArrayList<Vinculo>();
 		
 		//projeto de pesquisa
-		NodeList projetos = XML.pegarElementosDoCurriculo(documento, "PARTICIPACAO-EM-PROJETO");
+		NodeList projetos = XML.pegarElementosDoCurriculo(documento, "PROJETO-DE-PESQUISA");
 		NodeList periodicos = XML.pegarElementosDoCurriculo(documento, "DETALHAMENTO-DO-ARTIGO");
 		for (int i = 0; i < projetos.getLength(); i++) {
 			Vinculo vinculo = new Vinculo();
-			NodeList integrantes = XML.pegarElementosDoCurriculo(documento, "PINTEGRANTES-DO-PROJETO");
+			NodeList integrantes = XML.pegarElementosDoCurriculo(documento, "INTEGRANTES-DO-PROJETO");
 			for(int j = 0; j < integrantes.getLength(); j++) {
 				if(new ProfessorUnirio().isProfessorUnirio(integrantes.item(i).getAttributes().getNamedItem("NOME-COMPLETO").getNodeValue())) {
-					vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
-					vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
+					vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-INICIO").getNodeValue());
+					vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("NOME-DO-PROJETO").getNodeValue());
 				}
 			}
-			vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
-			vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
+			vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-INICIO").getNodeValue());
+			vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("NOME-DO-PROJETO").getNodeValue());
+			vinculos.add(vinculo);
+		}
+		for (int i = 0; i < periodicos.getLength(); i++) {
+			Vinculo vinculo = new Vinculo();
 			vinculo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
 			vinculos.add(vinculo);
 		}
-		
 		return vinculos;
 		
 	}
