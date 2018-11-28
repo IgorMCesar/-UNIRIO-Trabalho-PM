@@ -45,9 +45,9 @@ public class Curriculo {
 	 * Função que calcula a pontuação total por meio dos artigos e qualifica se o artigo vale 3 ou 1 ponto
 	 * @return retorna a soma da pontuação
 	 */
-	private int calcularNotaArtigo() {
+	public int calcularNotaArtigo() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("periodicos");
+		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/periodicos.csv");
 		for (int j = 0; j < artigos.size(); j++) {
 			String periodico = artigos.get(j).getPeriodico();
 			int ano = Integer.parseInt(artigos.get(j).getAno());
@@ -55,7 +55,7 @@ public class Curriculo {
 				for (int i = 0; i < dados.size(); i++) {
 					
 					if (periodico.equals(dados.get(i).get(1))) {
-						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
+						if (dados.get(i).get(2) .equals("A1")  || dados.get(i).get(2) .equals("A2") || dados.get(i).get(2) .equals("B1")) {
 							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
 							nota += PONTUACAO_ARTIGOS_1_PONTOS;
@@ -86,9 +86,9 @@ public class Curriculo {
 	 * Função que calcula a pontuação total por meio dos eventos estando limitado a retornar no máximo 5 pontos
 	 * @return retorna a soma da pontuação
 	 */
-	private int calcularNotaEvento() {
+	public int calcularNotaEvento() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("conferencia");
+		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/conferencia.csv");
 		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();

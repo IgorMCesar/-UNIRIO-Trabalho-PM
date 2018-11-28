@@ -51,10 +51,14 @@ public class Principal {
 		try {
 			//TODO testes, implementar lógica ao terminar
 			controladorFacade.setVerboso();
+			controladorFacade.definirArquivoSaida("saida.txt");
 			controladorFacade.inserirAluno("curriculo.xml", 4);
 			controladorFacade.gerarSaidaPremios();
 			controladorFacade.gerarSaidaArtigosQualisRestritos();
-			controladorFacade.gerarSaidaVinculo();
+			
+//			controladorFacade.gerarSaidaVinculo();
+			
+			controladorFacade.escreverArquivoSaida();
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

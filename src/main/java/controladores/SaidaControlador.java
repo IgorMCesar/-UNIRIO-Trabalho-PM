@@ -1,5 +1,7 @@
 package controladores;
 
+import utilidades.EscritorTxt;
+
 public class SaidaControlador {
 	
 	private String caminhoSaida;
@@ -34,6 +36,13 @@ public class SaidaControlador {
 	}
 	public void setVerboso(boolean verboso) {
 		this.verboso = verboso;
+	}
+
+
+	public void escreverArquivoSaida() {
+		
+		EscritorTxt.EscreverTxt(caminhoSaida, conteudoSaida.toString());
+		
 	}
 	
 	

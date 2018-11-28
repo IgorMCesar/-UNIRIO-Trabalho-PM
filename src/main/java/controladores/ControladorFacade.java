@@ -88,22 +88,32 @@ public class ControladorFacade {
 	public void gerarSaidaArtigosQualisRestritos() {
 
 		StringBuilder builder = new StringBuilder();
+		
+		saida.appendConteudoSaida("\n");
+		saida.appendConteudoSaida("\r\n");
 
-		builder.append("Artigos de Qualis Restrito obtidos:");
+		builder.append("Artigos de Qualis Restrito obtidos:\r\n");
 
 		for (Aluno aluno : comissao.getAlunos()) {
 
 			builder.append(aluno.getNome() + ":\r\n");
 
-			builder.append("Pontuação obtida: " + aluno.getCurriculo() + "\r\n");
-			builder.append("Quantidade de prêmios considerados: " + aluno.getCurriculo().getPremiosMenoresDezAnos().size() + "\r\n");
+			builder.append("Pontuação obtida: " + aluno.getCurriculo().calcularNotaArtigo() + "\r\n");
+			builder.append("Quantidade de artigos considerados: " + aluno.getCurriculo().getArtigos().size() + "\r\n");
 
 		}
+		saida.appendConteudoSaida(builder.toString());
 
 	}
 	
 	public void gerarSaidaVinculo() {
 		System.out.println(comissao.getAlunos().get(0).getCurriculo().getVinculoUnirio().toString());
+	}
+
+	public void escreverArquivoSaida() {
+		
+		saida.escreverArquivoSaida();
+		
 	}
 
 
