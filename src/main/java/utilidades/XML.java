@@ -33,9 +33,9 @@ public class XML {
 	
 	public ArrayList<Premio> instanciarPremios(Document curriculo){
 		ArrayList<Premio> premios = new ArrayList<Premio>();
-		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "NOME-DO-PREMIO-OU-TITULO", "PREMIOS-TITULOS");
-		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO-DA-PREMIACAO", "PREMIOS-TITULOS");
-		NodeList entidades = XML.pegarElementosDoCurriculo(curriculo, "NOME-DA-ENTIDADE-PROMOTORA", "PREMIOS-TITULOS");
+		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "PREMIO-TITULO");
+		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "PREMIO-TITULO");
+		NodeList entidades = XML.pegarElementosDoCurriculo(curriculo, "PREMIO-TITULO");
 		for (int i = 0; i < nomes.getLength(); i++) {
 			Premio premio = new Premio();
 			premio.setNome(nomes.item(i).getAttributes().getNamedItem("NOME-DO-PREMIO-OU-TITULO").getNodeValue());
@@ -54,10 +54,11 @@ public class XML {
 	 */
 	public ArrayList<Evento> instanciarEventos(Document curriculo){
 		ArrayList<Evento> eventos = new ArrayList<Evento>();
-		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "NOME-DO-EVENTO", "PARTICIPACAO-EM-EVENTOS-CONGRESSOS");
-		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO", "PARTICIPACAO-EM-EVENTOS-CONGRESSOS");
+		NodeList nomes = XML.pegarElementosDoCurriculo(curriculo, "DETALHAMENTO-DA-PARTICIPACAO-EM-CONGRESSO");
+		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "DADOS-BASICOS-DA-PARTICIPACAO-EM-CONGRESSO");
 		for (int i = 0; i < nomes.getLength(); i++) {
 			Evento evento = new Evento();
+			
 			evento.setNome(nomes.item(i).getAttributes().getNamedItem("NOME-DO-EVENTO").getNodeValue());
 			evento.setAno(anos.item(i).getAttributes().getNamedItem("ANO").getNodeValue());
 			eventos.add(evento);
@@ -74,14 +75,12 @@ public class XML {
 	 */
 	public ArrayList<Artigo> instanciarArtigos(Document curriculo){
 		ArrayList<Artigo> artigos = new ArrayList<Artigo>();
-		NodeList titulos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-ARTIGO", "ARTIGOS-PUBLICADOS");
-		NodeList periodicos = XML.pegarElementosDoCurriculo(curriculo, "TITULO-DO-PERIODICO-OU-REVISTA", "ARTIGOS-PUBLICADOS");
-		NodeList anos = XML.pegarElementosDoCurriculo(curriculo, "ANO-DO-ARTIGO", "ARTIGOS-PUBLICADOS");
+		NodeList titulos = XML.pegarElementosDoCurriculo(curriculo, "DADOS-BASICOS-DO-ARTIGO");
+		NodeList periodicos = XML.pegarElementosDoCurriculo(curriculo, "DETALHAMENTO-DO-ARTIGO");
 		for (int i = 0; i < titulos.getLength(); i++) {
 			Artigo artigo = new Artigo();
 			artigo.setTitulo(titulos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
 			artigo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
-			artigo.setAno(anos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
 			artigos.add(artigo);
 		}
 		
@@ -113,9 +112,10 @@ public class XML {
 		
 	}
 	
-	public static NodeList pegarElementosDoCurriculo(Document documento, String elementoDoCurriculo, String tag) {
+	public static NodeList pegarElementosDoCurriculo(Document documento, String tag) {
 		NodeList listaDeElementos = documento.getElementsByTagName(tag);
 		if (listaDeElementos.getLength() > 0) {
+
 			return listaDeElementos;
 		} else {
 			return null;
