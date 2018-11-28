@@ -31,16 +31,18 @@ public class Curriculo {
 		return notaPremio + notaEvento + notaArtigo;
 	}
 	
-	private int calcularNotaArtigo() {
+	public int calcularNotaArtigo() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("periodicos");
+		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/periodicos.csv");
 		for (int j = 0; j < artigos.size(); j++) {
 			String periodico = artigos.get(j).getPeriodico();
+			System.out.println(artigos.get(j).getAno());
+			System.out.println(periodico);
 			int ano = Integer.parseInt(artigos.get(j).getAno());
 			if (ano >= 2008) {
-				for (int i = 0; i < dados.size(); i++) {
-					if (periodico.equals(dados.get(i).get(1))) {
-						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
+				for (int i = 0; i < dados.size(); i++) {				
+					if (periodico.equalsIgnoreCase(dados.get(i).get(1))) {
+						if (dados.get(i).get(2).equalsIgnoreCase("A1") || dados.get(i).get(2).equalsIgnoreCase("A2") || dados.get(i).get(2).equalsIgnoreCase("B1")) {
 							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
 							nota += PONTUACAO_ARTIGOS_1_PONTOS;
@@ -52,7 +54,7 @@ public class Curriculo {
 		return nota;
 	}
 
-	private int calcularNotaPremio() {
+	public int calcularNotaPremio() {
 		int nota = 0;
 		for (int i = 0; i < premios.size(); i++) {
 	
@@ -65,17 +67,17 @@ public class Curriculo {
 	}
 	
 	
-	private int calcularNotaEvento() {
+	public int calcularNotaEvento() {
 		int nota = 0;
-		List<List<String>> dados = CSV.lerCSV("conferencia");
+		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/conferencia.csv");
 		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();
 			for (int k = 0; k < dados.size(); k++) {
 				if (nome.equals(dados.get(k).get(1))) {
-					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
-							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
-							|| dados.get(k).get(2) == "B5") {
+					if (dados.get(k).get(3).equalsIgnoreCase("A1") || dados.get(k).get(3).equalsIgnoreCase("A2") || dados.get(k).get(3).equalsIgnoreCase("B1")
+							|| dados.get(k).get(3).equalsIgnoreCase("B2") || dados.get(k).get(3).equalsIgnoreCase("B3") || dados.get(k).get(3).equalsIgnoreCase("B4")
+							|| dados.get(k).get(3).equalsIgnoreCase("B5")) {
 							notaEventos += PONTUACAO_EVENTO;
 					}
 				}

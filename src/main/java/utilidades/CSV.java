@@ -1,6 +1,7 @@
 package utilidades;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -25,7 +26,7 @@ public class CSV {
 			Path caminho = Paths.get(caminhoDoArquivo);
 	
 		    if (Files.exists(caminho)) {
-		        List<String> linhas = Files.readAllLines(caminho);
+		        List<String> linhas = Files.readAllLines(caminho, Charset.forName("windows-1251"));
 		        dados = linhas.stream()
 	                                   .skip(1)
 	                                   .map(linha -> Arrays.asList(linha.split(SEPARADOR_COLUNAS)))

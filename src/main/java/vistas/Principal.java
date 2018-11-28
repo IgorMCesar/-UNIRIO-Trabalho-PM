@@ -3,6 +3,7 @@ package vistas;
 import org.w3c.dom.Document;
 
 import controladores.ComissaoBolsasControlador;
+import controladores.ControladorFacade;
 import controladores.SaidaControlador;
 import utilidades.Opcoes;
 import utilidades.XML;
@@ -11,8 +12,7 @@ public class Principal {
 	
 	private Opcoes opcoes;
 
-	private ComissaoBolsasControlador comissaoBolsasControlador;
-	private SaidaControlador saidaControlador;
+	private ControladorFacade controladorFacade;
 
 
 	public static void main(String[] args) {
@@ -38,8 +38,7 @@ public class Principal {
 		
 		opcoes = Opcoes.getInstancia(args);
 
-		comissaoBolsasControlador = new ComissaoBolsasControlador();
-		saidaControlador = new SaidaControlador();
+		controladorFacade = new ControladorFacade();
 
 		executarComandos();
 
@@ -48,6 +47,15 @@ public class Principal {
 
 
 	private void executarComandos() {
+		
+		try {
+			controladorFacade.inserirAluno("curriculo.xml", 4);
+			controladorFacade.gerarSaidaPremios();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 		

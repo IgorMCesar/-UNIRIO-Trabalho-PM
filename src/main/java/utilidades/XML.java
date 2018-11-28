@@ -40,7 +40,7 @@ public class XML {
 			Premio premio = new Premio();
 			premio.setNome(nomes.item(i).getAttributes().getNamedItem("NOME-DO-PREMIO-OU-TITULO").getNodeValue());
 			premio.setAno(anos.item(i).getAttributes().getNamedItem("ANO-DA-PREMIACAO").getNodeValue());
-			premio.setNome(entidades.item(i).getAttributes().getNamedItem("NOME-DA-ENTIDADE-PROMOTORA").getNodeValue());
+			premio.setEntidade(entidades.item(i).getAttributes().getNamedItem("NOME-DA-ENTIDADE-PROMOTORA").getNodeValue());
 			premios.add(premio);
 		}
 		
@@ -79,6 +79,7 @@ public class XML {
 		NodeList periodicos = XML.pegarElementosDoCurriculo(curriculo, "DETALHAMENTO-DO-ARTIGO");
 		for (int i = 0; i < titulos.getLength(); i++) {
 			Artigo artigo = new Artigo();
+			artigo.setAno(titulos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
 			artigo.setTitulo(titulos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
 			artigo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
 			artigos.add(artigo);

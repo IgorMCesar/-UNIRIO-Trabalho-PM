@@ -1,10 +1,43 @@
 package modelos;
 
+import org.w3c.dom.Document;
+
+import utilidades.XML;
+
 public class Aluno implements Comparable<Aluno> {
 
 	private String nome;
 	private Curriculo curriculo;
 	private int pontuacao;
+	
+	public Aluno(String caminhoXML, Integer numeroSemestresSemReprovacao) {
+		
+		XML xml = new XML();
+		
+		Document documento;
+		try {
+			curriculo = new Curriculo();
+			documento = XML.lerXml(caminhoXML);
+			curriculo.setEventos(xml.instanciarEventos(documento));
+			curriculo.setArtigos(xml.instanciarArtigos(documento));
+			curriculo.setPremios(xml.instanciarPremios(documento));
+			//TODO instanciar semestres cursados
+			
+			curriculo.setNumeroSemestresSemReprovacao(numeroSemestresSemReprovacao);
+			
+			this.setCurriculo(curriculo);
+			
+			this.setNome(xml.pegarElementoDoCurriculo(documento, "NOME-COMPLETO", "DADOS-GERAIS"));
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	
+		
+	}
 
 	public String getNome() {
 		return nome;

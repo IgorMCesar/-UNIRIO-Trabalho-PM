@@ -5,13 +5,17 @@ public class SaidaControlador {
 	private String caminhoSaida;
 	private String caminhoLogErro;
 	private boolean verboso;
+	private StringBuilder conteudoSaida;
 	
 	public SaidaControlador() {
+		conteudoSaida = new StringBuilder();
 		this.setVerboso(false);
 	}
 	
 	
-	
+	public void appendConteudoSaida(String conteudo) {
+		this.conteudoSaida.append(conteudo);
+	}
 	
 	public String getCaminhoSaida() {
 		return caminhoSaida;
@@ -31,6 +35,8 @@ public class SaidaControlador {
 	public void setVerboso(boolean verboso) {
 		this.verboso = verboso;
 	}
+	
+	
 	
 	
 	
