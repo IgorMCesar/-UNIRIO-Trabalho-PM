@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import utilidades.NewCSV;
+import utilidades.CSV;
 
 public class Curriculo {
 
@@ -16,7 +16,7 @@ public class Curriculo {
 	private ArrayList<String> vinculoUnirio;
 	private Integer numeroSemestresSemReprovacao;
 
-	NewCSV csv = new NewCSV();
+	CSV csv = new CSV();
 
 	public int calcularNota() {
 		int nota = 0;

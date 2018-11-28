@@ -1,69 +1,45 @@
 package utilidades;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
-/**
- * Classe respons·vel por ler CSVs e retornar os dados deles.
- * @author Tomas
- *
- */
 public class CSV {
 
-	String caminhoArquivo;
-	String separadorColunas;
-	File file;
+	private final static String SEPARADOR_COLUNAS = ";";
 
-	/**
-	 * Instancia a classe CSV, com o separador de linha ;
-	 * @param caminho Local do arquivo.
-	 */
-	public CSV(String caminho) {
-
-		this(caminho, ";");
-	}
-
-
-	/**
-	 * Instancia a classe CSV, com o separador de linha especificado
-	 * @param caminho Local do arquivo.
-	 * @param separador Separador de colunas do csv.
-	 */
-	public CSV(String caminho, String separador) {
-
-		caminhoArquivo = caminho;
-		separadorColunas = separador;
-		file = new File(caminhoArquivo);		
-
-	}
-
-	
 	/**
 	 * Funcao que le o arquivo CSV e retorna uma lista de dados contidos nele
-	 * @return
+	 * @param caminhoDoArquivo
+	 * @return 
 	 */
-	public ArrayList<String[]> lerCSV() {
-
-		ArrayList<String[]> dados = new ArrayList<String[]>();
-
-		Scanner leitor;
+	public static List<List<String>> lerCSV(String caminhoDoArquivo) {
+		
+		List<List<String>> dados = null;
 		try {
-			leitor = new Scanner(file);
-			while(leitor.hasNext()){
-				String dadosLinha = leitor.next();
-				String[] values = dadosLinha.split(separadorColunas);
-				dados.add(values);
-			} 
-		}catch (FileNotFoundException e) {
-			e.printStackTrace();
+			Path caminho = Paths.get(caminhoDoArquivo);
+	
+		    if (Files.exists(caminho)) {
+		        List<String> linhas = Files.readAllLines(caminho);
+		        dados = linhas.stream()
+	                                   .skip(1)
+	                                   .map(linha -> Arrays.asList(linha.split(SEPARADOR_COLUNAS)))
+	                                   .filter(Objects::nonNull)
+	                                   .collect(Collectors.toList());
+		    } else {
+		    	System.err.println("Arquivo n√£o encontrado");
+		    }
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
 		}
 		return dados;
-	}           
-
-
-
+	}
+	
+	
 
 }
