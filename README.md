@@ -39,16 +39,16 @@ Regras que devem ser consideradas, retiradas do documento que descreve os crité
 
 * Não deve ser feita uma interface gráfica para o usuário. O que será avaliado será a lógica do programa, não sua interface gráfica.
 * Deve ser possível rodar o programa com diferentes parâmetros (em qualquer ordem) por linha de comando, de acordo com as opções abaixo:
-** -o <nome-caminho-arquivo-txt-saida> : indica o caminho do arquivo texto que deve conter a saída do programa.
-** -l <nome-caminho-arquivo-log-errors> : indica o caminho do arquivo texto que deve conter um log/relatório de erros do programa.
-** -a <nome-caminho-arquivo-xml> <num-semestres-sem-reprovacao>: indica os dados do candidato a ser considerado: o caminho do arquivo com o currículo Lattes, no formato XML, e o número de semestres que o aluno já completou sem reprovações. Podem ser passados vários parâmetros "-a" para o programa.
-** -c : gera a saída completa do programa.
-** -v : modificador que indica que a saída deve ser completa (modo verboso, ou verbose mode).
-** -pr : gera a saída referente aos prêmios recebidos.
-** -ar : gera a saída referente aos artigos completos no Qualis Restrito (ou seja, publicados em conferências ou periódicos classificados como A1, A2 e B1).
-** -anr : gera a saída referente aos artigos completos fora do Qualis Restrito (ou seja, publicados em conferências ou periódicos classificados como B2, B3, B4 e B5).
-** -pe : gera a saída referente à participação em eventos classificados (ou seja, referentes a conferências classificadas como A1, A2, B1, B2, B3, B4 e B5).
-** -vi : gera a saída referente à existência de vínculo com a UNIRIO.
+	* -o <nome-caminho-arquivo-txt-saida> : indica o caminho do arquivo texto que deve conter a saída do programa.
+	* -l <nome-caminho-arquivo-log-errors> : indica o caminho do arquivo texto que deve conter um log/relatório de erros do programa.
+	* -a <nome-caminho-arquivo-xml> <num-semestres-sem-reprovacao>: indica os dados do candidato a ser considerado: o caminho do arquivo com o currículo Lattes, no formato XML, e o número de semestres que o aluno já completou sem reprovações. Podem ser passados vários parâmetros "-a" para o programa.
+	* -c : gera a saída completa do programa.
+	* -v : modificador que indica que a saída deve ser completa (modo verboso, ou verbose mode).
+	* -pr : gera a saída referente aos prêmios recebidos.
+	* -ar : gera a saída referente aos artigos completos no Qualis Restrito (ou seja, publicados em conferências ou periódicos classificados como A1, A2 e B1).
+	* -anr : gera a saída referente aos artigos completos fora do Qualis Restrito (ou seja, publicados em conferências ou periódicos classificados como B2, B3, B4 e B5).
+	* -pe : gera a saída referente à participação em eventos classificados (ou seja, referentes a conferências classificadas como A1, A2, B1, B2, B3, B4 e B5).
+	* -vi : gera a saída referente à existência de vínculo com a UNIRIO.
 
 ## Exemplo de como executar o programa
 
