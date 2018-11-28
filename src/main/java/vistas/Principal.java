@@ -49,8 +49,12 @@ public class Principal {
 	private void executarComandos() {
 		
 		try {
+			//TODO testes, implementar lógica ao terminar
+			controladorFacade.setVerboso();
 			controladorFacade.inserirAluno("curriculo.xml", 4);
 			controladorFacade.gerarSaidaPremios();
+			controladorFacade.gerarSaidaArtigosQualisRestritos();
+			controladorFacade.gerarSaidaVinculo();
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

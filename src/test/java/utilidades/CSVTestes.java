@@ -22,7 +22,6 @@ public class CSVTestes {
 		List<List<String>> dados1 = CSV.lerCSV("src/test/resources/CSVs/CSV1.csv");
 		
 		assertEquals("dado11", dados1.get(0).get(0));
-		assertEquals("dado11", dados1.get(0).get(0));
 		assertEquals("dado12", dados1.get(0).get(1));
 		assertEquals("dado13", dados1.get(0).get(2));
 		assertEquals("dado21", dados1.get(1).get(0));

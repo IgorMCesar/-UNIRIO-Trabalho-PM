@@ -50,7 +50,9 @@ public class ControladorFacade {
 
 	}
 
-	//TODO implementar modo verboso
+	/**
+	 * Gera a saída dos prêmios dos alunos. 
+	 */
 	public void gerarSaidaPremios() {
 
 		StringBuilder builder = new StringBuilder();
@@ -65,13 +67,22 @@ public class ControladorFacade {
 
 			builder.append("Pontuação obtida: " + aluno.getCurriculo().calcularNotaPremio() + "\r\n");
 			builder.append("Quantidade de prêmios considerados: " + aluno.getCurriculo().getPremiosMenoresDezAnos().size() + "\r\n");
-
+			
+			if(saida.isVerboso()) {
+				builder.append("Prêmios: \r\n");
+				for (Premio premio : aluno.getCurriculo().getPremios()) {
+					builder.append("nome: " + premio.getNome() + ", ano: " + premio.getAno() + "\r\n");
+				}
+			}
 		}
-
+		
+		saida.appendConteudoSaida("\n");
 		saida.appendConteudoSaida(builder.toString());
 
 		System.out.println(builder.toString());
 	}
+	
+	
 
 	//TODO terminar
 	public void gerarSaidaArtigosQualisRestritos() {
@@ -89,6 +100,10 @@ public class ControladorFacade {
 
 		}
 
+	}
+	
+	public void gerarSaidaVinculo() {
+		System.out.println(comissao.getAlunos().get(0).getCurriculo().getVinculoUnirio().toString());
 	}
 
 
