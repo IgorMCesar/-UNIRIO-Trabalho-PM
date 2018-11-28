@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import utilidades.CSV;
+import utilidades.ComparadorUtil;
 /**
  * Classe responsável por armazenar os dados do XML e calcular a nota do para a disputa da bolsa.
  * @author Lucas
@@ -54,7 +55,7 @@ public class Curriculo {
 			if (ano >= 2008) {
 				for (int i = 0; i < dados.size(); i++) {
 					
-					if (periodico.equals(dados.get(i).get(1))) {
+					if (ComparadorUtil.isEqual(periodico, dados.get(i).get(1))) {
 						if (dados.get(i).get(2) .equals("A1")  || dados.get(i).get(2) .equals("A2") || dados.get(i).get(2) .equals("B1")) {
 							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
@@ -93,10 +94,10 @@ public class Curriculo {
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();
 			for (int k = 0; k < dados.size(); k++) {
-				if (nome.equals(dados.get(k).get(1))) {
-					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
-							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
-							|| dados.get(k).get(2) == "B5") {
+				if (ComparadorUtil.isEqual(nome, dados.get(k).get(1))) {
+					if (dados.get(k).get(2).equals("A1") || dados.get(k).get(2).equals("A2") || dados.get(k).get(2) .equals("B1")
+							|| dados.get(k).get(2) .equals("B2") || dados.get(k).get(2) .equals("B3") || dados.get(k).get(2) .equals("B4")
+							|| dados.get(k).get(2).equals( "B5")) {
 							notaEventos += PONTUACAO_EVENTO;
 					}
 				}
