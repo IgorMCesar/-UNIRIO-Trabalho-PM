@@ -17,7 +17,7 @@ public class Curriculo {
 	private ArrayList<Premio> premios;
 	private ArrayList<Artigo> artigos;
 	private ArrayList<Evento> eventos;
-	private ArrayList<String> vinculoUnirio;
+	private ArrayList<Vinculo> vinculoUnirio;
 	private Integer numeroSemestresSemReprovacao;
 
 	public static final int PONTUACAO_ARTIGOS_3_PONTOS = 3;
@@ -146,11 +146,11 @@ public class Curriculo {
 		this.eventos = eventos;
 	}
 
-	public ArrayList<String> getVinculoUnirio() {
+	public ArrayList<Vinculo> getVinculoUnirio() {
 		return vinculoUnirio;
 	}
 
-	public void setVinculoUnirio(ArrayList<String> vinculoUnirio) {
+	public void setVinculoUnirio(ArrayList<Vinculo> vinculoUnirio) {
 		this.vinculoUnirio = vinculoUnirio;
 	}
 

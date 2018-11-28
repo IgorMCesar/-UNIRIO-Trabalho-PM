@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -14,8 +15,8 @@ import org.xml.sax.SAXException;
 import modelos.Artigo;
 import modelos.Evento;
 import modelos.Premio;
-
-import modelos.Premio;
+import modelos.ProfessorUnirio;
+import modelos.Vinculo;
 
 
 
@@ -146,7 +147,31 @@ public class XML {
 	}
 	
 	
-	
+	public static ArrayList<Vinculo> instanciarVinculosUNIRIO(Document documento){
+		
+		ArrayList<Vinculo> vinculos = new ArrayList<Vinculo>();
+		
+		//projeto de pesquisa
+		NodeList projetos = XML.pegarElementosDoCurriculo(documento, "PARTICIPACAO-EM-PROJETO");
+		NodeList periodicos = XML.pegarElementosDoCurriculo(documento, "DETALHAMENTO-DO-ARTIGO");
+		for (int i = 0; i < projetos.getLength(); i++) {
+			Vinculo vinculo = new Vinculo();
+			NodeList integrantes = XML.pegarElementosDoCurriculo(documento, "PINTEGRANTES-DO-PROJETO");
+			for(int j = 0; j < integrantes.getLength(); j++) {
+				if(new ProfessorUnirio().isProfessorUnirio(integrantes.item(i).getAttributes().getNamedItem("NOME-COMPLETO").getNodeValue())) {
+					vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
+					vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
+				}
+			}
+			vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
+			vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
+			vinculo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
+			artigos.add(vinculo);
+		}
+		
+		return artigos;
+		
+	}
 	
 }
 

@@ -23,6 +23,8 @@ public class Aluno implements Comparable<Aluno> {
 			curriculo.setPremios(xml.instanciarPremios(documento));
 			//TODO instanciar semestres cursados
 			
+			
+			
 			curriculo.setNumeroSemestresSemReprovacao(numeroSemestresSemReprovacao);
 			
 			this.setCurriculo(curriculo);

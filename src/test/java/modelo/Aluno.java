@@ -16,11 +16,6 @@ public class Aluno {
 		assertTrue(aluno.getCurriculo().getNumeroSemestresSemReprovacao() == 2);
 		assertEquals(aluno.getCurriculo().getPremios().get(0).getAno(),"2001");
 		
-		System.out.println(aluno.getCurriculo().calcularNota());
-		
-		
-		
 	}
 	
-
 }
