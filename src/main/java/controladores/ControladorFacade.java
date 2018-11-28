@@ -14,7 +14,6 @@ public class ControladorFacade {
 	private CurriculoControlador curriculo;
 	private RankingControlador ranking;
 	private SaidaControlador saida;
-	private AlunoControlador aluno;
 
 	public ControladorFacade() {
 
