@@ -21,12 +21,49 @@ public class Curriculo {
 	public int calcularNota() {
 		int nota = 0;
 		//Calculo da pontuação por premios, verificando se está dentro da validade de 10 anos
-		for (int i = 0; i < premios.size(); i++) {
-			int ano = Integer.parseInt(premios.get(i).getAno());
+		int notaPremio = calcularNotaPremio();
+		int notaEvento = calcularNotaEvento();
+		int notaArtigo = calcularNotaArtigo();
+
+		return notaPremio + notaEvento + notaArtigo;
+	}
+	
+	private int calcularNotaArtigo() {
+		int nota = 0;
+		List<List<String>> dados = csv.lerCSV("periodicos");
+		for (int j = 0; j < artigos.size(); j++) {
+			String periodico = artigos.get(j).getPeriodico();
+			int ano = Integer.parseInt(artigos.get(j).getAno());
 			if (ano >= 2008) {
-				nota++;
+				for (int i = 0; i < dados.size(); i++) {
+					if (periodico.equals(dados.get(i).get(1))) {
+						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
+							nota += 3;
+						} else {
+							nota += 1;
+						}
+					}
+				}
 			}
 		}
+		return nota;
+	}
+
+	private int calcularNotaPremio() {
+		int nota = 0;
+		for (int i = 0; i < premios.size(); i++) {
+	
+		int ano = Integer.parseInt(premios.get(i).getAno());
+		if (ano >= 2008) {
+			nota++;
+		}
+		}
+		return nota;
+	}
+	
+	
+	private int calcularNotaEvento() {
+		int nota = 0;
 		List<List<String>> dados = csv.lerCSV("conferencia");
 		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
@@ -50,24 +87,6 @@ public class Curriculo {
 			nota += 5;
 		}
 		
-
-		List<List<String>> dados2 = csv.lerCSV("periodicos");
-		for (int j = 0; j < artigos.size(); j++) {
-			String periodico = artigos.get(j).getPeriodico();
-			int ano = Integer.parseInt(artigos.get(j).getAno());
-			if (ano >= 2008) {
-				for (int i = 0; i < dados2.size(); i++) {
-					if (periodico.equals(dados.get(i).get(1))) {
-						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
-							nota += 3;
-						} else {
-							nota += 1;
-						}
-					}
-				}
-			}
-		}
-
 		return nota;
 	}
 
