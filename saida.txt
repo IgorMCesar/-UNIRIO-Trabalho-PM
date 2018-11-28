@@ -1,0 +1,595 @@
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 2
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 2
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 2
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 2
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 16190
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 256
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 50
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 26
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 19
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
+
+Prêmios obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 21
+Quantidade de prêmios considerados: 21
+Prêmios: 
+nome: Prêmio Dorgival Brandão de Qualidade e Produtividade em Software (autor de capitulos do livro premiado), ano: 2001
+nome: Melhor Relato de Experiência (com o artigo Uma Abordagem para Implantação de Processos de Software com ISO 9001 e CMMI), ano: 2005
+nome: 2o Lugar no Prêmio de Melhor Tese de Doutorado no Concurso de Teses e Dissertações em Qualidade de Software (CTD-QS) do Simpósio Brasileiro de Qualidade de Software (SBQS) de 2009, ano: 2009
+nome: Melhor Relato de Experiência (com o artigo Lições Aprendidas em uma Iniciativa de Melhoria de Processos de Software sob Diferentes Perspectivas: Membros da Organização, Implementadores e Avaliadores), ano: 2009
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Análise da Estrutura e Conteúdo de uma Base de Medidas Visando ao Controle Estatístico de Processos de Software), ano: 2010
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Marcelo Santos de Mello), ano: 2012
+nome: 1o Lugar - Melhor Relato de Experiência (com o artigo Fatores Cri&#769;ticos de Sucesso para Melhoria de Processos de Servic&#807;os de TI: Um Mapeamento Sistema&#769;tico), ano: 2013
+nome: 3a Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (co-orientação de aluno: Mylene Lisbôa Cabral), ano: 2013
+nome: Paraninfo da turma de Bacharelado em Sistemas de Informação 2013, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Avaliac&#807;a&#771;o do Processo de Medic&#807;a&#771;o em Ger. Incidentes e Ger. Continuidade e Disponib. à Luz do MR-MPS-SV), ano: 2014
+nome: Artigo convidado para edição especial da revista iSys com os melhores artigos do WAMPS 2014 (Mapeamento para Implantac&#807;a&#771;o Conjunta dos Modelos MR-MPS-SW e CERTICS)., ano: 2014
+nome: Artigo convidado para Edição Especial do CLEIej para os Melhores Artigos do CLEI 2014 (CLEI 2014 Special Issue), ano: 2014
+nome: 3o Lugar - Melhor Trabalho Técnico (Instanciac&#807;a&#771;o e Execuc&#807;a&#771;o das Atividades do Processo de Ana&#769;lise de Desempenho de Processos de Software), ano: 2015
+nome: 1o Lugar - Melhor Pôster de Mestrado da orientada do PPGI/UNIRIO Bianca Trinkenreich (SINIS - A Method to Select IT Services Indicators) - AASSQ ? Escola Avançada de Qualidade de Software na Amazônia, ano: 2015
+nome: Artigo indicado como um dos melhores trabalhos apresentados no PROFES 2015 (SINIS:A Method to Select Indicators for IT Services), ano: 2015
+nome: Mérito em reconhecimento ao desempenho, participação e contribuição ao resultado de avaliações MPS-SW e MPS-RH em organizações brasileiras, ano: 2015
+nome: Professor homenageado da turma de Bacharelado em Sistemas de Informação 2016, Departamento de Informática Aplicada - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), ano: 2017
+nome: ICEIS 2017 Best Student Paper Award para o artigo "Identifying Possible Requirements using Personas: A Qualitative Study", ano: 2017
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2017) (orientação de aluna: Bianca Trinkenreich), ano: 2017
+nome: 1o Lugar - Melhor artigo com Trabalho Técnico (título: Pra&#769;ticas para Tratamento de Fatores Cri&#769;ticos de Sucesso), ano: 2017
+nome: 2o Lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Rafaela Sampaio), ano: 2018
+nome: 3o lugar na categoria Mestrado do Concurso de Teses e Dissertações em Qualidade de Software (CTDQS - SBQS 2018) (orientação de aluna: Daisy Brito), ano: 2018
+nome: 1o Lugar - Melhor artigo de Relato de Experiência (título: Using SINIS and GQM+Strategies to Align Organizational Goals and Service Level Agreement Indicators), ano: 2018
+
+
+Artigos de Qualis Restrito obtidos:
+Gleison dos Santos Souza:
+Pontuação obtida: 0
+Quantidade de artigos considerados: 13
