@@ -56,7 +56,7 @@ public class Curriculo {
 			if (ano >= 2008) {
 				for (int i = 0; i < dados.size(); i++) {
 					if(comparador.comparaSemelhante(periodico, dados.get(i).get(1))) {
-						if (dados.get(i).get(2) .equals("A1")  || dados.get(i).get(2) .equals("A2") || dados.get(i).get(2) .equals("B1")) {
+						if (dados.get(i).get(2).equals("A1")  || dados.get(i).get(2).equals("A2") || dados.get(i).get(2).equals("B1")) {
 							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
 							nota += PONTUACAO_ARTIGOS_1_PONTOS;
@@ -95,9 +95,9 @@ public class Curriculo {
 			String nome = eventos.get(j).getNome();
 			for (int k = 0; k < dados.size(); k++) {
 				if(comparador.comparaSemelhante(nome, dados.get(k).get(1))) {
-					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
-							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
-							|| dados.get(k).get(2) == "B5") {
+					if (dados.get(k).get(2).equals("A1") || dados.get(k).get(2).equals("A2") || dados.get(k).get(2).equals("B1")
+							|| dados.get(k).get(2).equals("B2")|| dados.get(k).get(2).equals("B3") || dados.get(k).get(2).equals("B4")
+							|| dados.get(k).get(2).equals("B5")) {
 							notaEventos += PONTUACAO_EVENTO;
 					}
 				}
