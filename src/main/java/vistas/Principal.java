@@ -49,6 +49,16 @@ public class Principal {
 	private void executarComandos() {
 		
 		try {
+			
+			if(opcoes.isVerboso())
+				controladorFacade.setVerboso();
+			
+			controladorFacade.definirArquivoSaida(opcoes.getCaminhoSaida());
+			
+			controladorFacade.definirArquivoLog(opcoes.getCaminhoLogErros());
+			
+//			controladorFacade.
+			
 			//TODO testes, implementar lógica ao terminar
 			controladorFacade.setVerboso();
 			controladorFacade.definirArquivoSaida("saida.txt");
