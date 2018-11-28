@@ -16,6 +16,10 @@ public class Curriculo {
 	private ArrayList<String> vinculoUnirio;
 	private Integer numeroSemestresSemReprovacao;
 
+	public static final int PONTUACAO_ARTIGOS_3_PONTOS = 3;
+	public static final int PONTUACAO_ARTIGOS_1_PONTOS = 1;
+	public static final int PONTUACAO_PONTUACAO_EVENTO = 1;
+	
 	CSV csv = new CSV();
 
 	public int calcularNota() {
@@ -38,9 +42,9 @@ public class Curriculo {
 				for (int i = 0; i < dados.size(); i++) {
 					if (periodico.equals(dados.get(i).get(1))) {
 						if (dados.get(i).get(2) == "A1" || dados.get(i).get(2) == "A2" || dados.get(i).get(2) == "B1") {
-							nota += 3;
+							nota += PONTUACAO_ARTIGOS_3_PONTOS;
 						} else {
-							nota += 1;
+							nota += PONTUACAO_ARTIGOS_1_PONTOS;
 						}
 					}
 				}
@@ -73,7 +77,7 @@ public class Curriculo {
 					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
 							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
 							|| dados.get(k).get(2) == "B5") {
-							notaEventos++;
+							notaEventos += PONTUACAO_PONTUACAO_EVENTO;
 					}
 				}
 			}
@@ -134,11 +138,12 @@ public class Curriculo {
 		return artigos;
 	}
 
-	public int getPontuacaoDeArtigos() {
-		int pontuacao = 0;
-		// TODO ForEach separado
-		// this.artigos.forEach(artigo -> pontuacao += artigo.getValorPontuacao());
-		return pontuacao;
+	public int getPontuacaoArtigos() {
+		return this.calcularNotaArtigo();
+	}
+	
+	public int getPontuacaoEventos() {
+		return this.calcularNotaEvento();
 	}
 
 	public void setArtigos(ArrayList<Artigo> artigo) {

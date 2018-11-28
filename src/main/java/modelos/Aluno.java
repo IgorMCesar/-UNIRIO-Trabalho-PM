@@ -47,9 +47,9 @@ public class Aluno implements Comparable<Aluno> {
 				return -1;
 			} 
 			//artigos publicados
-			else if(aluno.getCurriculo().getArtigos().size() < this.getCurriculo().getArtigos().size()) {
+			else if(aluno.getCurriculo().getPontuacaoArtigos() < this.getCurriculo().getPontuacaoArtigos()) {
 				return 1;
-			} else if(aluno.getCurriculo().getArtigos().size() > this.getCurriculo().getArtigos().size()) {
+			} else if(aluno.getCurriculo().getPontuacaoArtigos() > this.getCurriculo().getPontuacaoArtigos()) {
 				return -1;
 			} 
 			//premiacoes
@@ -59,9 +59,9 @@ public class Aluno implements Comparable<Aluno> {
 				return -1;
 			} 
 			//participacao em eventos
-			else if (aluno.getCurriculo().getEventos().size() < this.getCurriculo().getEventos().size()) {
+			else if (aluno.getCurriculo().getPontuacaoEventos() < this.getCurriculo().getPontuacaoEventos()) {
 				return 1;
-			} else if (aluno.getCurriculo().getEventos().size() > this.getCurriculo().getEventos().size()) {
+			} else if (aluno.getCurriculo().getPontuacaoEventos() > this.getCurriculo().getPontuacaoEventos()) {
 				return -1;
 			} else {
 				return 0;
