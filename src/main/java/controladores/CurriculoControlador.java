@@ -8,13 +8,17 @@ import utilidades.XML;
 public class CurriculoControlador {
 	XML xml = new XML();
 
-	public Curriculo instanciarCurriculo(Document documento){
+	public Curriculo instanciarCurriculo(String caminho, Integer numeroRemestresSemReprovacao) throws Exception{
+		
+		Document documento = XML.lerXml(caminho);
+		
 		Curriculo curriculo = new Curriculo();
 		curriculo.setEventos(xml.instanciarEventos(documento));
 		curriculo.setArtigos(xml.instanciarArtigos(documento));
 		curriculo.setPremios(xml.instanciarPremios(documento));
 		//TODO instanciar semestres cursados
 		
+		curriculo.setNumeroSemestresSemReprovacao(numeroRemestresSemReprovacao);
 		
 	return curriculo;
 		

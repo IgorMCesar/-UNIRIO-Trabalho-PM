@@ -14,6 +14,7 @@ public class Curriculo {
 	private ArrayList<Artigo> artigos;
 	private ArrayList<Evento> eventos;
 	private ArrayList<String> vinculoUnirio;
+	private Integer numeroSemestresSemReprovacao;
 
 	NewCSV csv = new NewCSV();
 
@@ -123,6 +124,14 @@ public class Curriculo {
 
 	public void setArtigos(ArrayList<Artigo> artigo) {
 		this.artigos = artigo;
+	}
+
+	public Integer getNumeroSemestresSemReprovacao() {
+		return numeroSemestresSemReprovacao;
+	}
+
+	public void setNumeroSemestresSemReprovacao(Integer numeroSemestresSemReprovacao) {
+		this.numeroSemestresSemReprovacao = numeroSemestresSemReprovacao;
 	}
 
 }
