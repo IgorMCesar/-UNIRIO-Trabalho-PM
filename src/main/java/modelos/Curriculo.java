@@ -18,12 +18,11 @@ public class Curriculo {
 
 	public static final int PONTUACAO_ARTIGOS_3_PONTOS = 3;
 	public static final int PONTUACAO_ARTIGOS_1_PONTOS = 1;
-	public static final int PONTUACAO_PONTUACAO_EVENTO = 1;
+	public static final int PONTUACAO_EVENTO = 1;
+	public static final int PONTUACAO_MAXIMA_EVENTO = 5;
 	
-	CSV csv = new CSV();
-
 	public int calcularNota() {
-		int nota = 0;
+		
 		//Calculo da pontuação por premios, verificando se está dentro da validade de 10 anos
 		int notaPremio = calcularNotaPremio();
 		int notaEvento = calcularNotaEvento();
@@ -34,7 +33,7 @@ public class Curriculo {
 	
 	private int calcularNotaArtigo() {
 		int nota = 0;
-		List<List<String>> dados = csv.lerCSV("periodicos");
+		List<List<String>> dados = CSV.lerCSV("periodicos");
 		for (int j = 0; j < artigos.size(); j++) {
 			String periodico = artigos.get(j).getPeriodico();
 			int ano = Integer.parseInt(artigos.get(j).getAno());
@@ -68,7 +67,7 @@ public class Curriculo {
 	
 	private int calcularNotaEvento() {
 		int nota = 0;
-		List<List<String>> dados = csv.lerCSV("conferencia");
+		List<List<String>> dados = CSV.lerCSV("conferencia");
 		int notaEventos = 0;
 		for (int j = 0; j < eventos.size(); j++) {
 			String nome = eventos.get(j).getNome();
@@ -77,18 +76,18 @@ public class Curriculo {
 					if (dados.get(k).get(2) == "A1" || dados.get(k).get(2) == "A2" || dados.get(k).get(2) == "B1"
 							|| dados.get(k).get(2) == "B2" || dados.get(k).get(2) == "B3" || dados.get(k).get(2) == "B4"
 							|| dados.get(k).get(2) == "B5") {
-							notaEventos += PONTUACAO_PONTUACAO_EVENTO;
+							notaEventos += PONTUACAO_EVENTO;
 					}
 				}
 			}
 		}
 		//Como a pontuação de evento está limitada a 5 pontos, verifica se a pontuação excedeu o limite
-		if(notaEventos <= 5) {
+		if(notaEventos <= PONTUACAO_MAXIMA_EVENTO) {
 			nota += notaEventos;
 		}
 		//Caso exceda se soma 5 a nota total
 		else {
-			nota += 5;
+			nota += PONTUACAO_MAXIMA_EVENTO;
 		}
 		
 		return nota;

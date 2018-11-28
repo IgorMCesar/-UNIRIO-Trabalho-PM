@@ -20,10 +20,6 @@ public class Principal {
 		}
 	}
 
-
-
-
-
 	public Principal() {
 
 		while(true) {
@@ -94,7 +90,7 @@ public class Principal {
 			
 
 		default:
-			System.out.println("Opção não encontrada.");
+			System.out.println("Opcao nao encontrada.");
 		}
 
 	}
