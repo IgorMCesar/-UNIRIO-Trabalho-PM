@@ -65,6 +65,11 @@ public class Aluno implements Comparable<Aluno> {
 
 	@Override
 	
+	/**Funcao responsavel por estabelecer os métodos de comparação entre alunos
+	 * @author Lucas Lopes
+	 * @param Aluno aluno que será comparado com o corrente
+	 * @return numero inteiro que representa >, < ou = (1,-1 e 0, respectivamente)
+	 */
 	public int compareTo(Aluno aluno) {
 		if (aluno.getPontuacao() < this.getPontuacao()) {
 			return 1;

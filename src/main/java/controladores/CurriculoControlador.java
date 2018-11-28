@@ -8,6 +8,11 @@ import utilidades.XML;
 public class CurriculoControlador {
 	XML xml = new XML();
 
+	/**
+	 * @author Lucas Lopes
+	 * @param
+	 * @return
+	 */
 	public Curriculo instanciarCurriculo(String caminho, Integer numeroRemestresSemReprovacao) throws Exception{
 		
 		Document documento = XML.lerXml(caminho);
