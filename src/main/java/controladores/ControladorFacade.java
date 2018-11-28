@@ -21,8 +21,6 @@ public class ControladorFacade {
 		curriculo = new CurriculoControlador();
 		ranking = new RankingControlador();
 		saida = new SaidaControlador();
-		aluno = new AlunoControlador();
-
 	}
 
 	public void inserirAluno(String caminho, Integer numeroSemestresSemReprovacao) throws Exception {
