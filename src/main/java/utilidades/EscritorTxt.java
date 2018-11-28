@@ -14,7 +14,7 @@ public class EscritorTxt {
 	
 	/**
 	 * 
-	 * Instância um escritor de texto com o caminho e conteudo do arquivo especificado.
+	 * Cria um arquivo de texto no caminho e com o conteudo do arquivo especificado.
 	 * @param caminho Local e nome do arquivo
 	 * @param conteudo Conteudo do arquivo
 	 */
