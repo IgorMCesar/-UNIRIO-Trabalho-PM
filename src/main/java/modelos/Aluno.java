@@ -21,6 +21,7 @@ public class Aluno implements Comparable<Aluno> {
 			curriculo.setEventos(xml.instanciarEventos(documento));
 			curriculo.setArtigos(xml.instanciarArtigos(documento));
 			curriculo.setPremios(xml.instanciarPremios(documento));
+			curriculo.setVinculoUnirio(xml.instanciarVinculosUNIRIO(documento));
 			//TODO instanciar semestres cursados
 			
 			
@@ -29,7 +30,7 @@ public class Aluno implements Comparable<Aluno> {
 			
 			this.setCurriculo(curriculo);
 			
-			this.setNome(xml.pegarElementoDoCurriculo(documento, "NOME-COMPLETO", "DADOS-GERAIS"));
+			this.setNome(XML.pegarElementoDoCurriculo(documento, "NOME-COMPLETO", "DADOS-GERAIS"));
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -67,9 +68,9 @@ public class Aluno implements Comparable<Aluno> {
 
 	@Override
 	
-	/**Funcao responsavel por estabelecer os métodos de comparação entre alunos
+	/**Funcao responsavel por estabelecer os mï¿½todos de comparaï¿½ï¿½o entre alunos
 	 * @author Lucas Lopes
-	 * @param Aluno aluno que será comparado com o corrente
+	 * @param Aluno aluno que serï¿½ comparado com o corrente
 	 * @return numero inteiro que representa >, < ou = (1,-1 e 0, respectivamente)
 	 */
 	public int compareTo(Aluno aluno) {

@@ -134,7 +134,7 @@ public class XML {
 		}
 	}
 
-	public static String pegarElementoDoCurriculo(Node no, String elementoDoCurriculo) {
+	public String pegarElementoDoCurriculo(Node no, String elementoDoCurriculo) {
 		return no.getAttributes().getNamedItem(elementoDoCurriculo).getNodeValue();
 	}
 
@@ -147,7 +147,7 @@ public class XML {
 	}
 	
 	
-	public static ArrayList<Vinculo> instanciarVinculosUNIRIO(Document documento){
+	public ArrayList<Vinculo> instanciarVinculosUNIRIO(Document documento){
 		
 		ArrayList<Vinculo> vinculos = new ArrayList<Vinculo>();
 		
@@ -166,27 +166,11 @@ public class XML {
 			vinculo.setAno(projetos.item(i).getAttributes().getNamedItem("ANO-DO-ARTIGO").getNodeValue());
 			vinculo.setTitulo(projetos.item(i).getAttributes().getNamedItem("TITULO-DO-ARTIGO").getNodeValue());
 			vinculo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
-			artigos.add(vinculo);
+			vinculos.add(vinculo);
 		}
 		
-		return artigos;
+		return vinculos;
 		
 	}
 	
 }
-
-//NodeList listaDePremios = doc.getElementsByTagName("PREMIO-TITULO");
-//for (int i = 0; i < listaDePremios.getLength(); i++) {
-//  
-//  Node noDoPremio = listaDePremios.item(i);
-//  if(noDoPremio.getNodeType() == Node.ELEMENT_NODE){
-//      Element premio = (Element) noDoPremio;
-//      
-//      String anoDaPremiacao = premio.getAttribute("ANO-DA-PREMIACAO");
-//      String anoDaPremiacao = premio.getAttribute("NOME-DO-PREMIO-OU-TITULO");
-//      System.out.println("Ano = " + anoDaPremiacao);
-//      
-//      NodeList listaDeFilhosDaPessoa = premio.getChildNodes();
-//      int tamanhoListaFilhos = listaDeFilhosDaPessoa.getLength();
-//  }
-//}

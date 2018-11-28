@@ -14,7 +14,7 @@ public class ControladorFacade {
 	private CurriculoControlador curriculo;
 	private RankingControlador ranking;
 	private SaidaControlador saida;
-	private AlunoControlador aluno;
+//	private AlunoControlador aluno;
 
 	public ControladorFacade() {
 
@@ -22,7 +22,7 @@ public class ControladorFacade {
 		curriculo = new CurriculoControlador();
 		ranking = new RankingControlador();
 		saida = new SaidaControlador();
-		aluno = new AlunoControlador();
+//		aluno = new AlunoControlador();
 
 	}
 
