@@ -5,12 +5,16 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import controladores.AlunoControlador;
+
 public class Aluno {
+	
+	AlunoControlador controlador = new AlunoControlador();
 	
 	@Test
 	public void instanciarAlunoTest() {
 		
-		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml",2);
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
 		
 		assertEquals(aluno.getNome(), "Gleison dos Santos Souza");
 		assertTrue(aluno.getCurriculo().getNumeroSemestresSemReprovacao() == 2);
@@ -22,30 +26,37 @@ public class Aluno {
 	@Test
 	public void calcularNotaPremiosTest() {
 		
-		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+		
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
 		assertEquals(aluno.getCurriculo().calcularNotaPremio(),21);
 	}
 	
 
 	@Test
 	public void calcularNotaEventosTest() {
-		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
-//		assertEquals(aluno.getCurriculo().calcularNotaEvento(),)
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
+	//	assertEquals(aluno.getCurriculo().calcularNotaEvento(),)
 		
 	}
 	
 	
 	@Test
 	public void calcularNotaArtigosTest() {
-		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
-//		assertEquals(aluno.getCurriculo().calcularNotaArtigo(),);
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
+		assertEquals(aluno.getCurriculo().calcularNotaArtigo(), 6);
 	}
 	
 	@Test
 	public void calcularNotaVinculoTest() {
-		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
 		assertEquals(aluno.getCurriculo().calcularNotaVinculo(),1);
 		
+	}
+	
+	@Test
+	public void calcularNotaTotalTest() {
+		modelos.Aluno aluno =  controlador.instanciarAluno("curriculo.xml",2);
+		assertEquals(aluno.getCurriculo().calcularNota(),27);
 	}
 	
 }
