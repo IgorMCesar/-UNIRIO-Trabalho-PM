@@ -18,7 +18,7 @@ public class ComissaoBolsasControlador {
 		
 		curriculoControlador = new CurriculoControlador();
 		
-		saidaControlador = new SaidaControlador();
+		setSaidaControlador(new SaidaControlador());
 		
 	}
 	
@@ -48,6 +48,14 @@ public class ComissaoBolsasControlador {
 
 	public void setAlunos(ArrayList<Aluno> alunos) {
 		this.alunos = alunos;
+	}
+
+	public SaidaControlador getSaidaControlador() {
+		return saidaControlador;
+	}
+
+	public void setSaidaControlador(SaidaControlador saidaControlador) {
+		this.saidaControlador = saidaControlador;
 	}
 }
 
