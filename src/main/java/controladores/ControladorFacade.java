@@ -14,7 +14,7 @@ public class ControladorFacade {
 	private CurriculoControlador curriculo;
 	private RankingControlador ranking;
 	private SaidaControlador saida;
-//	private AlunoControlador aluno;
+	private AlunoControlador aluno;
 
 	public ControladorFacade() {
 
@@ -22,13 +22,13 @@ public class ControladorFacade {
 		curriculo = new CurriculoControlador();
 		ranking = new RankingControlador();
 		saida = new SaidaControlador();
-//		aluno = new AlunoControlador();
+		aluno = new AlunoControlador();
 
 	}
 
 	public void inserirAluno(String caminho, Integer numeroSemestresSemReprovacao) throws Exception {
 
-		comissao.inserirAluno(caminho, numeroSemestresSemReprovacao);
+		aluno.inserirAluno(caminho, numeroSemestresSemReprovacao, comissao.getAlunos());
 
 	}
 
