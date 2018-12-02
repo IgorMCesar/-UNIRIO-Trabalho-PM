@@ -68,7 +68,7 @@ public class Principal {
 				controladorFacade.gerarSaidaPremios();
 				controladorFacade.gerarSaidaArtigosQualisRestritos();
 
-				//				controladorFacade.gerarSaidaVinculo();
+				controladorFacade.gerarSaidaVinculo();
 			}
 			else {
 				if(opcoes.isSaidaPremios()) {

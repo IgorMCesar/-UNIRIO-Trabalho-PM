@@ -20,10 +20,32 @@ public class Aluno {
 	
 	
 	@Test
-	public void calcularNotaPremios() {
+	public void calcularNotaPremiosTest() {
+		
+		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+		assertEquals(aluno.getCurriculo().calcularNotaPremio(),21);
+	}
+	
+
+	@Test
+	public void calcularNotaEventosTest() {
+		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+//		assertEquals(aluno.getCurriculo().calcularNotaEvento(),)
 		
 	}
 	
 	
+	@Test
+	public void calcularNotaArtigosTest() {
+		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+//		assertEquals(aluno.getCurriculo().calcularNotaArtigo(),);
+	}
+	
+	@Test
+	public void calcularNotaVinculoTest() {
+		modelos.Aluno aluno = new modelos.Aluno("curriculo.xml", 2);
+		assertEquals(aluno.getCurriculo().calcularNotaVinculo(),1);
+		
+	}
 	
 }

@@ -174,7 +174,7 @@ public class XML {
 			vinculos.add(vinculo);
 		}
 		
-		//formação acadêmica
+		//formação acadêmica(procura pelo mestrado)
 		if(formacao.getLength() > 0) {
 			Vinculo vinculo = new Vinculo();
 				if(formacao.item(0).getAttributes().getNamedItem("NOME-INSTITUICAO").equals("Universidade Federal do Estado do Rio de Janeiro")) {	
