@@ -14,15 +14,15 @@ public class ControladorFacade {
 	private CurriculoControlador curriculo;
 	private RankingControlador ranking;
 	private SaidaControlador saida;
-//	private AlunoControlador aluno;
+	private AlunoControlador aluno;
 
 	public ControladorFacade() {
 
 		comissao = new ComissaoBolsasControlador();
-		curriculo = new CurriculoControlador();
-		ranking = new RankingControlador();
+		setCurriculo(new CurriculoControlador());
+		setRanking(new RankingControlador());
 		saida = new SaidaControlador();
-//		aluno = new AlunoControlador();
+		setAluno(new AlunoControlador());
 
 	}
 	
@@ -147,6 +147,30 @@ public class ControladorFacade {
 		
 		saida.escreverArquivoSaida();
 		
+	}
+
+	public RankingControlador getRanking() {
+		return ranking;
+	}
+
+	public void setRanking(RankingControlador ranking) {
+		this.ranking = ranking;
+	}
+
+	public CurriculoControlador getCurriculo() {
+		return curriculo;
+	}
+
+	public void setCurriculo(CurriculoControlador curriculo) {
+		this.curriculo = curriculo;
+	}
+
+	public AlunoControlador getAluno() {
+		return aluno;
+	}
+
+	public void setAluno(AlunoControlador aluno) {
+		this.aluno = aluno;
 	}
 
 

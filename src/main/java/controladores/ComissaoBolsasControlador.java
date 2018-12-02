@@ -18,26 +18,30 @@ public class ComissaoBolsasControlador {
 		
 		curriculoControlador = new CurriculoControlador();
 		
-		saidaControlador = new SaidaControlador();
+		setSaidaControlador(new SaidaControlador());
 		
 	}
 	
 	/**
 	 * Insere um novo aluno para que o mesmo possa ser pontuado
-	 * @param caminhoXML String com o caminho do xml fornecido
-	 * @param numeroSemestresSemReprovacao Integer com o numero de semestres sem reprovacao na pos graduacao
+	 * 
+	 * @param caminhoXML
+	 *            String com o caminho do xml fornecido
+	 * @param numeroSemestresSemReprovacao
+	 *            Integer com o numero de semestres sem reprovacao na pos graduacao
 	 * @throws Exception
 	 */
-	public void inserirAluno(String caminhoXML, Integer numeroSemestresSemReprovacao) throws Exception {
-		
-		Aluno aluno = new Aluno(caminhoXML, numeroSemestresSemReprovacao);
-		
-		aluno.setCurriculo(curriculoControlador.instanciarCurriculo(caminhoXML,numeroSemestresSemReprovacao));
-		
-		alunos.add(aluno);
-		
-	}
+	public void inserirAluno(String caminhoXML, Integer numeroSemestresSemReprovacao)
+			throws Exception {
 
+		Aluno aluno = new Aluno(caminhoXML, numeroSemestresSemReprovacao);
+
+		aluno.setCurriculo(curriculoControlador.instanciarCurriculo(caminhoXML, numeroSemestresSemReprovacao));
+
+		alunos.add(aluno);
+
+	}
+	
 	public ArrayList<Aluno> getAlunos() {
 		return alunos;
 	}
@@ -45,7 +49,14 @@ public class ComissaoBolsasControlador {
 	public void setAlunos(ArrayList<Aluno> alunos) {
 		this.alunos = alunos;
 	}
-	
+
+	public SaidaControlador getSaidaControlador() {
+		return saidaControlador;
+	}
+
+	public void setSaidaControlador(SaidaControlador saidaControlador) {
+		this.saidaControlador = saidaControlador;
+	}
 }
 
 
