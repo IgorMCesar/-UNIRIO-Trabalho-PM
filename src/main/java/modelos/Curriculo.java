@@ -25,6 +25,7 @@ public class Curriculo {
 
 	public static final int PONTUACAO_ARTIGOS_3_PONTOS = 3;
 	public static final int PONTUACAO_ARTIGOS_1_PONTOS = 1;
+	public static final int PONTUACAO_MAXIMA_VINCULO = 2;
 	public static final int PONTUACAO_EVENTO = 1;
 	public static final int PONTUACAO_MAXIMA_EVENTO = 5;
 	
@@ -119,6 +120,23 @@ public class Curriculo {
 		}
 		
 		return nota;
+	}
+	
+	/**
+	 * Função que calcula a pontuação total por meio dos vinculos estando limitado a retornar no máximo 2 pontos
+	 * @return retorna a soma da pontuação
+	 */
+	public int calcularNotaVinculo() {
+		int nota = 0;
+		if(vinculoUnirio.size() > 2) {
+			return PONTUACAO_MAXIMA_VINCULO;
+		}
+		else
+			nota = vinculoUnirio.size();
+			
+			return nota;
+		
+		
 	}
 
 	public int getSemestresCursados() {
