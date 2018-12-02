@@ -11,6 +11,13 @@ public class AlunoControlador {
 	CurriculoControlador curriculoControlador;
 	XML xml = new XML();
 
+	
+	/**
+	 * Função para instanciar o aluno atráves do curriculo do mesmo
+	 * @param caminhoXML
+	 * @param numeroSemestresSemReprovacao
+	 * @return
+	 */
 	public Aluno instanciarAluno(String caminhoXML, Integer numeroSemestresSemReprovacao) {
 
 		Curriculo curriculo = null;
