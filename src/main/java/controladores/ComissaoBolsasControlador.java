@@ -12,11 +12,15 @@ public class ComissaoBolsasControlador {
 	
 	private SaidaControlador saidaControlador;
 	
+	private AlunoControlador alunoControlador;
+	
 	public ComissaoBolsasControlador() {
 		
 		alunos = new ArrayList<Aluno>();
 		
 		curriculoControlador = new CurriculoControlador();
+		
+		alunoControlador = new AlunoControlador();
 		
 		setSaidaControlador(new SaidaControlador());
 		
@@ -34,7 +38,7 @@ public class ComissaoBolsasControlador {
 	public void inserirAluno(String caminhoXML, Integer numeroSemestresSemReprovacao)
 			throws Exception {
 
-		Aluno aluno = new Aluno(caminhoXML, numeroSemestresSemReprovacao);
+		Aluno aluno = alunoControlador.instanciarAluno(caminhoXML, numeroSemestresSemReprovacao);
 
 		aluno.setCurriculo(curriculoControlador.instanciarCurriculo(caminhoXML, numeroSemestresSemReprovacao));
 

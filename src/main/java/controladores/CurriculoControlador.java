@@ -23,6 +23,7 @@ public class CurriculoControlador {
 		curriculo.setEventos(xml.instanciarEventos(documento));
 		curriculo.setArtigos(xml.instanciarArtigos(documento));
 		curriculo.setPremios(xml.instanciarPremios(documento));
+		curriculo.setVinculoUnirio(xml.instanciarVinculosUNIRIO(documento));
 		//TODO instanciar semestres cursados
 		
 		curriculo.setNumeroSemestresSemReprovacao(numeroSemestresSemReprovacao);

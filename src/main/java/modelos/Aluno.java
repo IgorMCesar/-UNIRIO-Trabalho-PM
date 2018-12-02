@@ -10,36 +10,8 @@ public class Aluno implements Comparable<Aluno> {
 	private Curriculo curriculo;
 	private int pontuacao;
 	
-	public Aluno(String caminhoXML, Integer numeroSemestresSemReprovacao) {
-		
-		XML xml = new XML();
-		
-		Document documento;
-		try {
-			curriculo = new Curriculo();
-			documento = XML.lerXml(caminhoXML);
-			curriculo.setEventos(xml.instanciarEventos(documento));
-			curriculo.setArtigos(xml.instanciarArtigos(documento));
-			curriculo.setPremios(xml.instanciarPremios(documento));
-			curriculo.setVinculoUnirio(xml.instanciarVinculosUNIRIO(documento));
-			//TODO instanciar semestres cursados
-			
-			
-			
-			curriculo.setNumeroSemestresSemReprovacao(numeroSemestresSemReprovacao);
-			
-			this.setCurriculo(curriculo);
-			
-			this.setNome(XML.pegarElementoDoCurriculo(documento, "NOME-COMPLETO", "DADOS-GERAIS"));
-			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-	
-		
+	public Aluno() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getNome() {
