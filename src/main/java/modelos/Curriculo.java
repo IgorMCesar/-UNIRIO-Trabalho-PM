@@ -2,6 +2,8 @@ package modelos;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,6 +28,9 @@ public class Curriculo {
 	public static final int PONTUACAO_EVENTO = 1;
 	public static final int PONTUACAO_MAXIMA_EVENTO = 5;
 	
+	Calendar cal = GregorianCalendar.getInstance();
+	int anoAtual = cal.get(Calendar.YEAR); 
+	
 	ComparadorUtil comparador = new ComparadorUtil();
 	
 	/**
@@ -48,12 +53,13 @@ public class Curriculo {
 	 * @return retorna a soma da pontuação
 	 */
 	public int calcularNotaArtigo() {
+		
 		int nota = 0;
 		List<List<String>> dados = CSV.lerCSV("src/main/resources/CSVs/periodicos.csv");
 		for (int j = 0; j < artigos.size(); j++) {
 			String periodico = artigos.get(j).getPeriodico();
 			int ano = Integer.parseInt(artigos.get(j).getAno());
-			if (ano >= 2008) {
+			if ( (anoAtual - ano) <= 10) {
 				for (int i = 0; i < dados.size(); i++) {
 					if(comparador.comparaSemelhante(periodico, dados.get(i).get(1))) {
 						if (dados.get(i).get(2).equals("A1")  || dados.get(i).get(2).equals("A2") || dados.get(i).get(2).equals("B1")) {
@@ -76,7 +82,7 @@ public class Curriculo {
 		for (int i = 0; i < premios.size(); i++) {
 	
 		int ano = Integer.parseInt(premios.get(i).getAno());
-		if (ano >= 2008) {
+		if ((anoAtual - ano) <= 10) {
 			nota++;
 		}
 		}
@@ -126,7 +132,11 @@ public class Curriculo {
 	public ArrayList<Premio> getPremios() {
 		return premios;
 	}
-
+	
+	/**
+	 * Função para coletar os premios dos últimos 10 anos
+	 * @return arraylist com os premios
+	 */
 	public ArrayList<Premio> getPremiosMenoresDezAnos() {
 		LocalDate dataDeHoje = LocalDate.now();
 		// TODO Facilitar?
