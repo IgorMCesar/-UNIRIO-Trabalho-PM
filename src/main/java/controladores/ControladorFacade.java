@@ -28,7 +28,7 @@ public class ControladorFacade {
 
 	public void inserirAluno(String caminho, Integer numeroSemestresSemReprovacao) throws Exception {
 
-		aluno.inserirAluno(caminho, numeroSemestresSemReprovacao, comissao.getAlunos());
+		comissao.inserirAluno(caminho, numeroSemestresSemReprovacao);
 
 	}
 
