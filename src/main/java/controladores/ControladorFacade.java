@@ -25,19 +25,31 @@ public class ControladorFacade {
 //		aluno = new AlunoControlador();
 
 	}
-
+	
+	/**
+	 * Insere o aluno no controlador da comissão
+	 * @param caminho
+	 * @param numeroSemestresSemReprovacao
+	 * @throws Exception
+	 */
 	public void inserirAluno(String caminho, Integer numeroSemestresSemReprovacao) throws Exception {
 
 		comissao.inserirAluno(caminho, numeroSemestresSemReprovacao);
 
 	}
-
+	
+	
+	/**
+	 * Define o arquivo de saída do programa
+	 * @param caminho
+	 */
 	public void definirArquivoSaida(String caminho) {
 
 		saida.setCaminhoSaida(caminho);
 
 	}
 
+	
 	public void definirArquivoLog(String caminho) {
 
 		saida.setCaminhoLogErro(caminho);
@@ -84,7 +96,9 @@ public class ControladorFacade {
 	
 	
 
-	//TODO terminar
+	/**
+	 * Gera a saída dos Artigos com Qualis Restrito
+	 */
 	public void gerarSaidaArtigosQualisRestritos() {
 
 		StringBuilder builder = new StringBuilder();
@@ -106,8 +120,27 @@ public class ControladorFacade {
 
 	}
 	
+	/**
+	 * Gera a saída dos vínculos com a unirio considerados
+	 */
 	public void gerarSaidaVinculo() {
-		System.out.println(comissao.getAlunos().get(0).getCurriculo().getVinculoUnirio().toString());
+		StringBuilder builder = new StringBuilder();
+		
+		saida.appendConteudoSaida("\n");
+		saida.appendConteudoSaida("\r\n");
+
+		builder.append("Vínculo Unirio:\r\n");
+
+		for (Aluno aluno : comissao.getAlunos()) {
+
+			builder.append(aluno.getNome() + ":\r\n");
+
+			builder.append("Nota conseguida por conta dos vínculos: " + aluno.getCurriculo().calcularNotaVinculo() + "\r\n");
+			builder.append("Quantidade de artigos considerados: " + aluno.getCurriculo().getVinculoUnirio().size() + "\r\n");
+
+		}
+		saida.appendConteudoSaida(builder.toString());
+
 	}
 
 	public void escreverArquivoSaida() {

@@ -18,4 +18,12 @@ public class Aluno {
 		
 	}
 	
+	
+	@Test
+	public void calcularNotaPremios() {
+		
+	}
+	
+	
+	
 }
