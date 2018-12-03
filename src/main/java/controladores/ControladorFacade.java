@@ -28,8 +28,8 @@ public class ControladorFacade {
 	
 	/**
 	 * Insere o aluno no controlador da comissão
-	 * @param caminho
-	 * @param numeroSemestresSemReprovacao
+	 * @param caminho do arquivo XML
+	 * @param numeroSemestresSemReprovacao numero de Semestres Sem Reprovacao do aluno
 	 * @throws Exception
 	 */
 	public void inserirAluno(String caminho, Integer numeroSemestresSemReprovacao) throws Exception {
@@ -41,7 +41,7 @@ public class ControladorFacade {
 	
 	/**
 	 * Define o arquivo de saída do programa
-	 * @param caminho
+	 * @param caminho do arquivo de saída
 	 */
 	public void definirArquivoSaida(String caminho) {
 
@@ -49,15 +49,20 @@ public class ControladorFacade {
 
 	}
 
-	
+	/**
+	 * Define o caminho do arquivo de logs do programa
+	 * @param caminho caminho do arquivo de logs
+	 */
 	public void definirArquivoLog(String caminho) {
 
 		saida.setCaminhoLogErro(caminho);
 
 	}
 
+	/**
+	 * Define saída verbosa
+	 */
 	public void setVerboso() {
-
 		saida.setVerboso(true);
 
 	}
@@ -142,7 +147,10 @@ public class ControladorFacade {
 		saida.appendConteudoSaida(builder.toString());
 
 	}
-
+	
+	/**
+	 * Escreve informações no arquivo de saída
+	 */
 	public void escreverArquivoSaida() {
 		
 		saida.escreverArquivoSaida();

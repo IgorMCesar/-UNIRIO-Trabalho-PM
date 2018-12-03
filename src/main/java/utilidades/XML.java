@@ -124,7 +124,13 @@ public class XML {
 		}
 	}
 
-
+	/**
+	 * Captura elementos de um curriculo informado (Arquivo XML)
+	 * @param documento Arquivo cujos dados serão capturados
+	 * @param elementoDoCurriculo elemento do currículo que será capturado
+	 * @param tag tag do arquivo que possui a informação desejada
+	 * @return elemento do currículo
+	 */
 	public static String pegarElementoDoCurriculo(Document documento, String elementoDoCurriculo, String tag) {
 		NodeList listaDeElementos = documento.getElementsByTagName(tag);
 		if (listaDeElementos.getLength() > 0) {
@@ -133,20 +139,44 @@ public class XML {
 			return "";
 		}
 	}
-
+	
+	/**
+	 * Captura elementos de um curriculo informado (Arquivo XML) por no que corresponde às informações desejadas.
+	 * @param documento Arquivo cujos dados serão capturados
+	 * @param elementoDoCurriculo elemento do currículo que será capturado
+	 * @param tag tag do arquivo que possui a informação desejada
+	 * @return valor do no encontrado
+	 */
 	public String pegarElementoDoCurriculo(Node no, String elementoDoCurriculo) {
 		return no.getAttributes().getNamedItem(elementoDoCurriculo).getNodeValue();
 	}
-
+	
+	/**
+	 *  Retorna lista de nos de uma tag
+	 * @param documento documento XML instanciado como objeto
+	 * @param tag tag desejada
+	 * @return lista de nos de uma tag
+	 */
 	public static NodeList NodeListpegartNos(Document documento, String tag) {
 		return documento.getElementsByTagName(tag);
 	}
-
+	
+	/**
+	 * Retorna o número de nos por tag do documento XML
+	 * @param documento documento XML instanciado como objeto
+	 * @param tag tag desejada
+	 * @return numero de nos da tag
+	 */
 	public static int pegarQunatidadeDeNos(Document documento, String tag) {
 		return documento.getElementsByTagName(tag).getLength();
 	}
 	
-	
+	/**
+	 * Instancia vinculos com a UNIRIO
+	 * @param documento documento XML instanciado como objeto
+	 * @return vinculos lista de vinculos
+	 */
+	@SuppressWarnings("unlikely-arg-type")
 	public ArrayList<Vinculo> instanciarVinculosUNIRIO(Document documento){
 		
 		ArrayList<Vinculo> vinculos = new ArrayList<Vinculo>();

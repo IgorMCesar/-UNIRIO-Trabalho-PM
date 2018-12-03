@@ -15,6 +15,10 @@ public class SaidaControlador {
 	}
 	
 	
+	/**
+	 * Incrementa dados no arquivo de saída
+	 * @param conteudo
+	 */
 	public void appendConteudoSaida(String conteudo) {
 		this.conteudoSaida.append(conteudo);
 	}
@@ -38,7 +42,9 @@ public class SaidaControlador {
 		this.verboso = verboso;
 	}
 
-
+	/**
+	 * Escreve arquivo de saída
+	 */
 	public void escreverArquivoSaida() {
 		
 		EscritorTxt.EscreverTxt(caminhoSaida, conteudoSaida.toString());
