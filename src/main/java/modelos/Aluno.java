@@ -1,9 +1,5 @@
 package modelos;
 
-import org.w3c.dom.Document;
-
-import utilidades.XML;
-
 public class Aluno implements Comparable<Aluno> {
 
 	private String nome;
