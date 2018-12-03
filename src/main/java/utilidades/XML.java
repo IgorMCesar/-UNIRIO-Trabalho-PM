@@ -114,6 +114,12 @@ public class XML {
 		
 	}
 	
+	/**
+	 * Pega elementos do currículo utilizando uma TAG do XML
+	 * @param documento
+	 * @param tag
+	 * @return
+	 */
 	public static NodeList pegarElementosDoCurriculo(Document documento, String tag) {
 		NodeList listaDeElementos = documento.getElementsByTagName(tag);
 		if (listaDeElementos.getLength() > 0) {
@@ -124,7 +130,13 @@ public class XML {
 		}
 	}
 
-
+	/**
+	 * Retorna somente a primeira ocorrencia encontrada com a TAG e o nome do Elemento passado
+	 * @param documento
+	 * @param elementoDoCurriculo
+	 * @param tag
+	 * @return
+	 */
 	public static String pegarElementoDoCurriculo(Document documento, String elementoDoCurriculo, String tag) {
 		NodeList listaDeElementos = documento.getElementsByTagName(tag);
 		if (listaDeElementos.getLength() > 0) {
@@ -146,7 +158,12 @@ public class XML {
 		return documento.getElementsByTagName(tag).getLength();
 	}
 	
-	
+	/**
+	 * Procura no XML e instância os vinculos com a unirio existentes
+	 * @param documento
+	 * @return
+	 */
+
 	public ArrayList<Vinculo> instanciarVinculosUNIRIO(Document documento){
 		
 		ArrayList<Vinculo> vinculos = new ArrayList<Vinculo>();

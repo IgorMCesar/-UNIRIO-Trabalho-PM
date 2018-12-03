@@ -6,6 +6,11 @@ import utilidades.CSV;
 
 public class ProfessorUnirio {
 	
+	/**
+	 * Verifica se o professor pertence a UNIRIO
+	 * @param nome
+	 * @return retorna TRUE caso o professor faça parte da UNIRIO
+	 */
 	public boolean isProfessorUnirio(String nome) {
 		
 		List<List<String>> professores = CSV.lerCSV("src/main/resources/CSVs/professores.csv");
