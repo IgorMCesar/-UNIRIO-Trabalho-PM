@@ -4,7 +4,9 @@ import org.w3c.dom.Document;
 
 import controladores.ComissaoBolsasControlador;
 import controladores.ControladorFacade;
+import controladores.CurriculoControlador;
 import controladores.SaidaControlador;
+import modelo.Curriculo;
 import utilidades.Opcoes;
 import utilidades.XML;
 
@@ -21,10 +23,10 @@ public class Principal {
 		try {
 
 			new Principal(args);
-
-			Document curriculo = XML.lerXml("curriculo.xml");
-			System.out.println(XML.pegarElementoDoCurriculo(curriculo, "NOME-COMPLETO", "DADOS-GERAIS"));
-
+			CurriculoControlador controlador = new CurriculoControlador();
+			modelos.Curriculo curriculo = controlador.instanciarCurriculo("curriculo.xml",2);
+			System.out.println(curriculo.calcularNotaEvento());
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -68,7 +70,7 @@ public class Principal {
 				controladorFacade.gerarSaidaPremios();
 				controladorFacade.gerarSaidaArtigosQualisRestritos();
 
-				//				controladorFacade.gerarSaidaVinculo();
+				controladorFacade.gerarSaidaVinculo();
 			}
 			else {
 				if(opcoes.isSaidaPremios()) {

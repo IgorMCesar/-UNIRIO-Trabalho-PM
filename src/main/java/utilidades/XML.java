@@ -154,6 +154,7 @@ public class XML {
 		//projeto de pesquisa
 		NodeList projetos = XML.pegarElementosDoCurriculo(documento, "PROJETO-DE-PESQUISA");
 		NodeList periodicos = XML.pegarElementosDoCurriculo(documento, "DETALHAMENTO-DO-ARTIGO");
+		NodeList formacao = XML.pegarElementosDoCurriculo(documento, "MESTRADO");
 		for (int i = 0; i < projetos.getLength(); i++) {
 			Vinculo vinculo = new Vinculo();
 			NodeList integrantes = XML.pegarElementosDoCurriculo(documento, "INTEGRANTES-DO-PROJETO");
@@ -172,8 +173,18 @@ public class XML {
 			vinculo.setPeriodico(periodicos.item(i).getAttributes().getNamedItem("TITULO-DO-PERIODICO-OU-REVISTA").getNodeValue());
 			vinculos.add(vinculo);
 		}
-		return vinculos;
+		
+		//formação acadêmica(procura pelo mestrado)
+		if(formacao.getLength() > 0) {
+			Vinculo vinculo = new Vinculo();
+				if(formacao.item(0).getAttributes().getNamedItem("NOME-INSTITUICAO").equals("Universidade Federal do Estado do Rio de Janeiro")) {	
+					vinculo.setAno(projetos.item(0).getAttributes().getNamedItem("ANO-DE-CONCLUSAO").getNodeValue());
+					vinculo.setTitulo(projetos.item(0).getAttributes().getNamedItem("TITULO-DA-DISSERTACAO-TESE").getNodeValue());
+					vinculos.add(vinculo);
+				}
 		
 	}
+		return vinculos;
 	
+}
 }
